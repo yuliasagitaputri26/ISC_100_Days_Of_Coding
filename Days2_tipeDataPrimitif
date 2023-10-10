@@ -1,1 +1,25 @@
-
+public class Main {
+    public static void main (String[] args) {
+        System.out.println("tipe data primitif.java");
+        
+       int berat = 48;
+        byte yu = -128;
+        long tinggi = 150;
+        char nilai = 'A';
+        short umur = 18;
+        float suhu = 234.5f;
+        double ukuran = 64;
+        boolean sp = true;
+        
+        System.out.println("berat" + berat);
+        System.out.println("yu" + yu);
+        System.out.println("tinggi" + tinggi);
+        System.out.println("nilai" + nilai);
+        System.out.println("umur" + umur);
+        System.out.println("suhu" + suhu);
+        System.out.println("ukuran" + ukuran);
+        System.out.println("sp" + sp);
+        
+        
+        
+}}
