@@ -5,13 +5,16 @@ public class Main {
         
         
         
-        System.out.println(" masukkan nama = " );
+        System.out.println(" yulia sagita putri" );
         String nama = input.nextLine();
-        System.out.println(" masukkan kelas = " );
+        System.out.println(" informatika c  " );
         String kelas = input.nextLine();
-        System.out.println(" masukkan Nim = " );
+        System.out.println(" D0223022 " );
         String Nim = input.nextLine();
         
+        System.out.println("nama" + nama);
+        System.out.println("kelas" + kelas);
+        System.out.println("Nim" + Nim);
         
         
         
