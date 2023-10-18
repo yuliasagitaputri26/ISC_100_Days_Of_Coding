@@ -36,19 +36,19 @@ public class Main {
 
       int g= ~y & 0x0f;
         
-        System.out.println(" a = " + binary[y]);
+        System.out.println(" y = " + binary[y]);
 
         System.out.println(" b = " + binary[b]);
 
-        System.out.println(" a|b = " + binary[c]);
+        System.out.println(" y|b = " + binary[c]);
 
-        System.out.println(" a&b = " + binary[d]);
+        System.out.println(" y&b = " + binary[d]);
 
-        System.out.println(" a^b= " + binary[e]);
+        System.out.println(" y^b= " + binary[e]);
 
-        System.out.println("~a & b|a&~b= "+binary[f]);
+        System.out.println("~y & b|y&~b= "+binary[f]);
 
-        System.out.println("~a= " + binary[g]);
+        System.out.println("~y= " + binary[g]);
 
     }
 
