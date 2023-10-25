@@ -1,0 +1,25 @@
+package Day17_if_else;
+import java.util.Scanner;
+
+public class Main {
+    public static void main (String[] args) {
+        
+        Scanner input = new Scanner (System.in);
+        System.out.print("masukkan waktu = ");
+        double yu = input.nextDouble();
+        
+          if (yu >= 05.00 && yu < 11.00) {
+            System.out.println(yu + " adalah waktu pagi");
+        } else if (yu >= 11.00 && yu <= 13.00) {
+            System.out.println(yu + " adalah waktu siang");
+        } else if (yu >= 14.00 && yu <= 18.00) {
+            System.out.println(yu + " adalah waktu sore");
+        } else if (yu >= 19.00 && yu <= 00.00) {
+            System.out.println(yu + " adalah waktu malam");
+        } else if (yu >= 01.00 && yu <= 04.00) {
+            System.out.println(yu + " adalah waktu dini hari");
+        } else {
+            System.out.println("tidak termasuk waktu ");
+        }
+    }
+}
