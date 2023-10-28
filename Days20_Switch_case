@@ -1,0 +1,56 @@
+package Days20_Switch_case;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main (String[] args) {
+        Scanner Yu = new Scanner (System.in);
+        System.out.println("menentukan luas geometri yang tlah di tentukan");
+        
+        /* angka 1 untuk luas persegi
+        anga 2 untuk luas persegi panjang
+        angka 3 untuk luas segitiga
+        angka 4 untuk luas lingkaran */
+        
+        System.out.print(" masukkan angka ");
+        int geometri = Yu.nextInt();
+        int s,a,t,r,p,l;
+        
+        switch (geometri) {
+            case 1:
+            System.out.print("masukkan sisi persegi : ");
+            s = Yu.nextInt();
+            double k;
+            k = s*s;
+            System.out.println("luas persegi adalah : " + k);
+            break;
+            
+            case 2:
+            System.out.print("masukkan lebar persegi panjang : ");
+            l = Yu.nextInt();
+            System.out.print("masukkan panjang persegi panjang : ");
+            p = Yu.nextInt();
+            double f;
+            f = p*l;
+            System.out.println("luas persegi panjang adalah : " + f);
+            break;
+            
+            case 3:
+            System.out.print("masukkan tinggi segitiga : ");
+            t = Yu.nextInt();
+            System.out.print("masukkan alas segitiga : ");
+            a = Yu.nextInt();
+            double j;
+            j = 0.5*a*t;
+            System.out.println("luas segitiga adalah : " + j);
+            break;
+            
+            case 4:
+            System.out.print("masukkan jari-jari lingkaran : ");
+            r = Yu.nextInt();
+            double h;
+            h = 3.14*r*r;
+            System.out.println("luas lingkaran adalah : " + h);
+            break;
+        }
+    }
+}
