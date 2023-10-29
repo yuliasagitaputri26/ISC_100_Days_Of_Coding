@@ -1,0 +1,15 @@
+package Days21_Tenary_operator;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main (String[] args) {
+        Scanner yu = new Scanner (System.in);
+        
+        System.out.print("masukkan umur : ");
+        int umur = yu.nextInt();
+        
+        int y = (umur == 9) ? (umur+umur) : (umur/2);
+        System.out.println("umur saya sekarang adalah " + y );
+        
+    }
+}
