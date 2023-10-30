@@ -1,0 +1,15 @@
+package Days22_Tenary_operator;
+import java.util.Scanner;
+public class Main {
+    
+    public static void main (String[] args) {
+        Scanner yu = new Scanner (System.in);
+        int bil;
+        System.out.println("menentukam bilangan ganjil & genap");
+        System.out.print("Masukan Bilangan = ");
+        bil= yu.nextInt();
+        
+        int y = (bil % 1 != 0) || (bil % 2 != 0) ? (bil + 1) : (bil + 2);
+        System.out.println(y +"merupakan bilangan genap");
+    }
+}
