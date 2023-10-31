@@ -4,9 +4,9 @@ public class Main {
     public static void main (String[] args) {
        Scanner yu = new Scanner (System.in);
         
-        int i = 4;
-         while (i <= 10){
-        System.out.println(" hai yulia " + i);
-        i++;
+        int x = 4;
+         while (x <= 10){
+        System.out.println(" hai yulia " + x);
+             x++;
     }
     }}
