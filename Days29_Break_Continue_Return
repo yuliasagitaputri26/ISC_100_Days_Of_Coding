@@ -1,0 +1,19 @@
+package Days29;
+
+public class Main {
+    public static void main (String[] args) {
+       
+        int y = 1;
+        while (true){
+            y++;
+            if (y == 12){
+             break;   
+            }else if(y == 10){
+               continue;
+            }else if(y == 5){
+                return;
+            }
+            System.out.println("Hari ke- " + y);
+        }
+        
+        }}
