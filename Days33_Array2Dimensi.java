@@ -5,7 +5,7 @@ public class Main {
         
         //Array 2 Dimensi
         
-        Character [][] huruf = {
+        char [][] huruf = {
             {'A' , 'B' , 'C'},
             {'D' , 'E' , 'F'},
             {'G' , 'H' , 'I'},
@@ -22,3 +22,7 @@ public class Main {
         
          
 	}}
+        
+        
+         
+	
