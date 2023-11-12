@@ -5,8 +5,8 @@ public class Main {
         
         // loop for each
         
-        String [] nama = {"yulia" , "sagita" , "itha" , "gita"};
-        for(String a : nama){
-            System.out.println("saya biasa dipanggil = " + a);
+        int [] angka = {1 , 2 , 3 , 4 , 5};
+        for(int a : angka){
+            System.out.println("ini merupakan angka ke = " + a);
         }
     }}
