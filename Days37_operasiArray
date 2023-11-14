@@ -1,0 +1,30 @@
+package Days37;
+import java.util.Arrays;
+public class Main {
+    public static void main (String[] args) {
+        
+         int [] arrayAngka3 = {7,3,9,10,6,8,11};
+        
+        //Mengubah array menjadi String
+        System.out.println("\n Mengubah array menjadi String\n=============");
+        printArray(arrayAngka3);
+        //Mengcopy array
+        System.out.println("\n Mengcopy array\n~~~~~~~~~~~~~~~~~~~~~~~~~");
+        int [] arrayAngka4 = new int[arrayAngka3.length];
+        printArray(arrayAngka3);
+    }
+
+    private static void printArray(int[] array) {
+        System.out.println("Array =" + Arrays.toString(array));
+        }
+
+    
+    
+
+
+  }
+        
+        
+        
+        
+        
