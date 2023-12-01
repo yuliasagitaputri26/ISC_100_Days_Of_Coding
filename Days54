@@ -1,0 +1,30 @@
+package Days54;
+import java.util.Scanner;
+public class Main{
+
+    public static void main(String[] args){
+        
+        Scanner yu = new Scanner(System.in);
+        
+        System.out.print("Masukkan lebar persegi panjang : ");
+        int a = yu.nextInt();
+        System.out.print("Masukkan tinggi persegi panjng : ");
+        int b = yu.nextInt();
+        
+        System.out.println("luas " + luas(a , b));
+        System.out.println("keliling " + keliling(a , b));
+        
+    }
+    public static int luas(int a, int b){
+        int luas = a * b;
+        return luas;
+    }
+    public static int keliling(int a, int b){
+        int keliling = a + b;
+        return keliling;
+    }
+    
+    
+}
+        
+       
