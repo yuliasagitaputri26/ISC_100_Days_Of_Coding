@@ -1,0 +1,13 @@
+package Days55;
+import java.util.Arrays;
+public class Main{
+
+    public static void main(String[] args){
+        
+        double[] tinggi = {145,150,151,175};
+        System.out.println(Arrays.toString(tinggi));
+        
+       
+}
+}
+        
